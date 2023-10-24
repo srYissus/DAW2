@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 20px;
+    text-align: center;
+    background-image: url("../imgs/old_map.png");
+}
+#page{
+    width: 960px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    font-family: Courier;
+    color: white;
+    font-size: 1.1em;
+    border-bottom: 6px black solid;
+    background: url(../imgs/logo.png);
+    background-repeat: no-repeat; /** Para no repetir la img.*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #313B44;
+}
+#nav{
+    font-family: courier;
+    font-size: 1.4em;
+    color: silver;
+    text-align: center;
+    background-image: url("../imgs/red015.jpg");
+}
+ul{
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    list-style: none; /** Eliminar puntos de la lista.*/
+    display: flex;
+    text-align: center;
+    cursor: default;
+}
+#nav{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+#nav li{
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+}
+#nav li a{
+    display: block;
+    padding-top: 5px;
+    text-decoration: none; /** Eliminar subrayado*/
+    color: orange;
+}
+#nav li a:hover{
+    color:white;
+}
+#contenidos{
+    background-image: url(../imgs/book.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#videos{
+    background-image: url(../imgs/film.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contactos{
+    background-image: url(../imgs/mail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#content{
+    font-family: verdana;
+    font-size: 0.8em;
+    background: url("../imgs/lgrey008.jpg");
+}
+.article{
+    width: 240px;
+    border: 1px lightgray solid;
+    background-color: white;
+    text-align: center;
+    line-height: 1.8em; /**Alto de linea*/
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 22px;
+    margin: 30px;
+    float: left; /**Para que floten a la izq.*/
+}
+.article_header{
+    border-bottom: 1px #999999 solid;
+}
+h2{
+    padding: 10px;
+    font-size: 1.2em;
+}
+#footer{
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    clear: both;
+    background-color: #313B44;
+    border-top: 4px black solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
